@@ -9,6 +9,9 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+   "vite": {
+    "base": "/goit-js-hw-09/"
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "glob": "^11.0.0",
