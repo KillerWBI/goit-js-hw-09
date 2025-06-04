@@ -49,7 +49,7 @@
   "homepage": "https://killerwbi.github.io/goit-js-hw-09/",
   "repository": {
     "type": "git",
-    "url": "https://killerwbi.github.io/goit-js-hw-09/"
+    "url": "https://github.com/KillerWBI/goit-js-hw-09"
   },
   "dependencies": {
     "simplelightbox": "^2.14.3",
