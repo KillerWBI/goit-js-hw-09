@@ -6,11 +6,12 @@ import injectHTML from 'vite-plugin-html-inject';
 
 export default defineConfig(({ command }) => {
   return {
-    base: '/goit-js-hw-09/', // <-- замени на своё имя репозитория
+
 
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
+    base: '/goit-js-hw-09/',
     root: 'src',
     build: {
       sourcemap: true,

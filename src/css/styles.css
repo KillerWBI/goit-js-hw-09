@@ -63,3 +63,19 @@ font-family: 'Montserrat', sans-serif;
 line-height: 24px;
 border: none;
 }
+a {
+  text-decoration: none;
+  color: rgba(78, 117, 255, 1);
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 16px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: rgba(78, 117, 255, 0.7);
+  text-decoration: underline;
+}
+

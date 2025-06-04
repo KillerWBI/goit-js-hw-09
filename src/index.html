@@ -6,17 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+    
+      h1 {
+        color: #333;
+      }
+    
+      p {
+        color: #555;
+        line-height: 1.6;
+      }
+    
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+    
+      a:hover {
+        text-decoration: underline;
+      }
+    
+      h2 {
+        color: #444;
+      }
+    
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
-    <load src="/src/1-gallery.html" icon-path="img/sprite.svg#logo" />
+    <h1>Vanilla App Template</h1>
+    <p>
+      This is a simple template for a vanilla JavaScript application. It includes
+      links to two example pages: a gallery and a form.</p>
+    <p>
+      You can use this template as a starting point for your own projects. Just
+      replace the content in the example pages with your own code.
+    </p>
+    <p>
+      The template includes a basic HTML structure, a link to a CSS file for
+      styling, and a link to a JavaScript file for functionality. You can
+      customize the CSS and JavaScript files to suit your needs.
+    </p>
+    <p>
+      To get started, click on one of the links below to view the example pages.
+    </p>
+    <a href="./index.html">Главная</a>
+    <br />
+    <br />
 
-    <load src="/src/2-form.html" icon-path="img/sprite.svg#logo" />
+    <h2>Example Pages</h2>
+    <p>Click on the links below to view the example pages:</p>
+    <br />
+    <a href="./1-gallery.html">Галерея</a>
+    <br>
+    <a href="./2-form.html">Форма</a>
 
-
-
-    <script type="module" src="./js/1-gallery.js"></script>
-    <script type="module" src="./js/2-form.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js"></script>
   </body>
 </html>
