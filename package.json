@@ -18,6 +18,11 @@
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
+  "homepage": "https://killerwbi.github.io/goit-js-hw-09/",
+  "repository": {
+    "type": "git",
+    "url": "https://killerwbi.github.io/goit-js-hw-09/"
+  },
   "dependencies": {
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
