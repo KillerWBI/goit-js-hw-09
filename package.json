@@ -9,9 +9,16 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-   "vite": {
-    "base": "/goit-js-hw-09/"
+  "engines": {
+    "node": ">=16.0.0"
   },
+  "files": [
+    "dist",
+    "index.html",
+    "favicon.ico",
+    "assets"
+  ],
+
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "glob": "^11.0.0",
@@ -21,6 +28,24 @@
   },
   "author": "Artem <playgame02192008@gmail.com>",
   "license": "ISC",
+  "base": "/goit-js-hw-09/",
+  "description": "Homework 9 - Image Gallery",
+  "keywords": [
+    "javascript",
+    "homework",
+    "gallery",
+    "images"
+  ],
+  "bugs": {
+    "url": "https://killerwbi.github.io/goit-js-hw-09/",
+    "email": "playgame02192008@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Artem",
+      "email": "playgame02192008@gmail.com"
+    }
+  ],
   "homepage": "https://killerwbi.github.io/goit-js-hw-09/",
   "repository": {
     "type": "git",
